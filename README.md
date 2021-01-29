@@ -20,7 +20,7 @@ This module will enable Commerce Cardinity payments system in your WHHMCS shop.
 ### Installation
 
 0) Download the Cardinity Payment Module .zip file of the latest release from here: https://github.com/cardinity/cardinity-whmcs/releases
-1) Extract the files within your installation location under to folder /modules/addons
+1) Extract the files within your installation location under to folder ```/modules/addons```
 2) Enter ```cardinity folder``` and run ```composer install``` to install Cardinity SDK package
 3) Copy modules folder to ```<whmcs_dir>```
 4) Open WHMCS Admin area
