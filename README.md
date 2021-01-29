@@ -3,7 +3,7 @@ This module will enable Commerce Cardinity payments system in your WHMCS shop.
 
 ### Table of Contents  
 [<b>How to install? →</b>](#how-to-install)<br>
-       [For WHMCS 8 +](#For-WHMCS-8-+)   
+       [For WHMCS 8 +](#For-WHMCS-8-)   
  [<b>Changelog →</b>](#changelog)<br>
  [<b>FAQ →</b>](#faq)<br>
  [<b>About us →</b>](#-aboutus)<br>     
