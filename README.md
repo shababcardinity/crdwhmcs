@@ -3,8 +3,7 @@ This module will enable Commerce Cardinity payments system in your WHHMCS shop.
 
 ### Table of Contents  
 [<b>How to install? →</b>](#how-to-install)<br>
-      [Using extension installer](#using-exension-installer)  
-       [Using FTP](#using-ftp)   
+       [For version 8 and above](#For-version-8-and-above)   
  [<b>Changelog →</b>](#changelog)<br>
  [<b>FAQ →</b>](#faq)<br>
  [<b>About us →</b>](#-aboutus)<br>     
@@ -13,32 +12,32 @@ This module will enable Commerce Cardinity payments system in your WHHMCS shop.
 ## How to install?
 
 ### Requirements
-• Cardinity account  
-• Drupal version 7.x
+* Cardinity account
+* WHMCS v7.4.2 or above
+* Composer
 <br>
 
 ### Installation
 
-#### Using "Extension installer"
-0) Download the Cardinity Payment Module .zip file that matches your Drupal version from here: https://github.com/cardinity/cardinity-drupal/releases
-1) In Drupal base directory, navigate to "modules" folder (usually it's "/sites/all/modules/"
-2) Extract the Cardinity module .zip file to "modules" folder
-3) Open the terminal, go to base directory of Drupal and enter the command:  
-```$ composer require 'drupal/commerce_cardinity:^1.0'```
-4) Go to Drupal admin panel and enable the module under "Administration -> Extend" (the module will be in the group "Commerce - Payment"). Choose Commerce Cardinity and click "Install"
-5) Configure the payment rule. Go back to Drupal admin panel and navigate to "commerce/config/payment-methods". Under "Plugin" chooce the Cardinity module and insert your Cardinity account API keys.
+0) Download the Cardinity Payment Module .zip file of the latest release from here: https://github.com/cardinity/cardinity-whmcs/releases
+1) Extract the files within your installation location under to folder /modules/addons
+2) Enter cardinity folder and run composer install to install Cardinity SDK package
+3) Copy modules folder to <whmcs_dir>
+4) Open WHMCS Admin area
+5) Navigate to Setup -> Payments -> Payment Gateways
+6) Click the All Payment Gateways tab and find Cardinity
+- To install internal embedded payment gateway, click "Cardinity"
+- To install external hosted payment gateway, click "Cardinity External"
+7) Enter required details on the Manage Existing Gateways tab
 
-#### Using composer
-0) Download the Cardinity Payment Module .zip file that matches your Drupal version from here: https://github.com/cardinity/cardinity-drupal/releases   
-<b>or</b>  
-go to https://www.drupal.org/project/commerce_cardinity , scroll down to "Downloads", right click tar.gz (xx.xx KB) or zip (xx.xx KB) and click "Copy link address" of the Cardinity module version of your choice.
-1) Open the terminal and go to the base directory of your Drupal site
-2) Enter the command:
-```$ composer require 'drupal/commerce_cardinity:^1.0'```
-3) Then go to Drupal admin panel and navigate to Extend and click "Install new module".
-4) Paste the copied URL or upload the Commerce Cardinity module .zip file and press install
-5) After installation is complete, under "Next steps" go to "Administration pages". Find and check the box of "Commerce cardinity" module under "Commerce - Payment" and click "Install"
-6) Configure the payment rule. Go back to Drupal admin panel and navigate to "commerce/config/payment-methods". Under "Plugin" chooce the Cardinity module and insert your Cardinity account API keys.
+#### For version 8 and above
+0) Follow Steps 1 - 5 as above
+6) Navigate to "Wrench" icon on upper right corner ```Configuration > System Settings```
+7) Go to ```Payment Gateways```
+8) Click the ```All Payment Gateways``` tab
+- To install internal embedded payment gateway, click ```Cardinity```
+- To install external hosted payment gateway, click ```Cardinity External```
+9) Enter required details on the ```Manage Existing Gateways tab```
 ### Downloads
 Find the latest version of this extension here: https://github.com/cardinity/cardinity-drupal/releases
 
