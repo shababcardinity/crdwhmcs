@@ -21,14 +21,14 @@ This module will enable Commerce Cardinity payments system in your WHHMCS shop.
 
 0) Download the Cardinity Payment Module .zip file of the latest release from here: https://github.com/cardinity/cardinity-whmcs/releases
 1) Extract the files within your installation location under to folder /modules/addons
-2) Enter cardinity folder and run composer install to install Cardinity SDK package
-3) Copy modules folder to <whmcs_dir>
+2) Enter ```cardinity folder``` and run ```composer install``` to install Cardinity SDK package
+3) Copy modules folder to ```<whmcs_dir>```
 4) Open WHMCS Admin area
-5) Navigate to Setup -> Payments -> Payment Gateways
-6) Click the All Payment Gateways tab and find Cardinity
-- To install internal embedded payment gateway, click "Cardinity"
-- To install external hosted payment gateway, click "Cardinity External"
-7) Enter required details on the Manage Existing Gateways tab
+5) Navigate to ```Setup -> Payments -> Payment Gateways```
+6) Click the ```All Payment Gateways``` tab and find Cardinity
+- To install internal embedded payment gateway, click ```Cardinity```
+- To install external hosted payment gateway, click ```Cardinity External```
+7) Enter required details on the ```Manage Existing Gateways``` tab
 
 #### For version 8 and above
 * Follow Steps 1 - 5 as above
