@@ -1,5 +1,5 @@
 # Cardinity Payment Gateway for WHMCS
-This module will enable Commerce Cardinity payments system in your WHHMCS shop. 
+This module will enable Commerce Cardinity payments system in your WHMCS shop. 
 
 ### Table of Contents  
 [<b>How to install? →</b>](#how-to-install)<br>
@@ -90,7 +90,7 @@ Cardinity is a licensed payment institution, active in the European Union, regis
 ### Get started
 <a href="https://cardinity.com/sign-up">Click here</a> to sign-up and start accepting credit and debit card payments on your website or <a href="https://cardinity.com/company/contact-us">here</a> to contact us 
 #### Keywords
-payment gateway, credit card payment, online payment, credit card processing, online payment gateway, cardinity for Drupal.     
+payment gateway, credit card payment, online payment, credit card processing, online payment gateway, cardinity for WHMCS.     
 
   
  [▲ back to top](#Cardinity-Payment-Gateway-for-PrestaShop)
