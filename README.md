@@ -42,11 +42,20 @@ This module will enable Commerce Cardinity payments system in your WHHMCS shop.
 Find the latest version of this extension here: https://github.com/cardinity/cardinity-drupal/releases
 
 <details show>
-  <summary>For Drupal 7.x</summary>
+  <summary>For WHMCS 7.x and 8.x (recommended)</summary>
   
 | Version       | Description                                         |Link        |
 | ------------- |-----------------------------------------------------|------------|
-| 1.0.0         | Cardinity Payment Module for Drupal 7.x.            | <a href="https://github.com/cardinity/cardinity-drupal/releases/tag/1.0.0">Download</a> |
+| 1.0.2         | Cardinity Payment Module for Drupal 7.x.            | <a href="https://github.com/cardinity/cardinity-drupal/releases/tag/1.0.0">Download</a> |
+</details>
+
+<details show>
+  <summary>For WHMCS 7.x ONLY</summary>
+  
+| Version       | Description                                         |Link        |
+| ------------- |-----------------------------------------------------|------------|
+| 1.0.1         | 3ds v2 implemented                                 | <a href="https://github.com/cardinity/cardinity-whmcs/releases/tag/v1.0.1">Download</a> |
+| 1.0.0 | Payments and Refunds implemented | <a href="https://github.com/cardinity/cardinity-whmcs/releases/tag/v1.0.0">Download</a>
 </details>
 
 ### FAQ
