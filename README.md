@@ -30,7 +30,7 @@ This module will enable Commerce Cardinity payments system in your WHMCS shop.
 7) Enter required details on the ```Manage Existing Gateways``` tab
 
 #### For WHMCS 8 +
-* Follow Steps 1 - 5 as above
+* Complete steps 0 - 5 as above
 6) Navigate to "Wrench" icon on upper right corner ```Configuration > System Settings```
 7) Go to ```Payment Gateways```
 8) Click the ```All Payment Gateways``` tab
