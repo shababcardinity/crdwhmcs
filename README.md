@@ -3,7 +3,7 @@ This module will enable Commerce Cardinity payments system in your WHMCS shop.
 
 ### Table of Contents  
 [<b>How to install? →</b>](#how-to-install)<br>
-       [For version 8 and above](#For-version-8-and-above)   
+       [For WHMCS version 8 and above](#For-WHMCS-version-8-and-above)   
  [<b>Changelog →</b>](#changelog)<br>
  [<b>FAQ →</b>](#faq)<br>
  [<b>About us →</b>](#-aboutus)<br>     
@@ -30,7 +30,7 @@ This module will enable Commerce Cardinity payments system in your WHMCS shop.
 - To install external hosted payment gateway, click ```Cardinity External```
 7) Enter required details on the ```Manage Existing Gateways``` tab
 
-#### For version 8 and above
+#### For WHMCS version 8 and above
 * Follow Steps 1 - 5 as above
 6) Navigate to "Wrench" icon on upper right corner ```Configuration > System Settings```
 7) Go to ```Payment Gateways```
